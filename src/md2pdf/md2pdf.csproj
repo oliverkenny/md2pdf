@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>md2pdf</ToolCommandName>
+    <PackageId>md2pdf</PackageId>
+    <Description>Local Markdown to PDF converter.</Description>
+    <RepositoryUrl>https://example.com/md2pdf</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig" Version="0.35.0" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.45.0" />
+  </ItemGroup>
+</Project>
